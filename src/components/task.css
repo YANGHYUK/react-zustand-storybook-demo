@@ -1,0 +1,25 @@
+.list-item {
+  background-color: aliceblue;
+  border: solid 1px black;
+  display: inline-flex;
+  align-items: center;
+  max-width: 210px;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.list-item .title input {
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+  width: 100%;
+}
+
+.list-item .checkbox input {
+}
+
+.list-item > .title.archived > input:disabled {
+  text-decoration: line-through;
+  color: gray;
+}
